@@ -19,9 +19,9 @@
 
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
-		<property name="url" value="jdbc:oracle:thin:@10.144.122.19:1521/EBSCDB" />
-		<property name="username" value="APPS" />
-		<property name="password" value="APPS" />
+		<property name="url" value="jdbc:oracle:thin:@10.144.122.19:1521/EBSDB" />
+		<property name="username" value="apps" />
+		<property name="password" value="apps" />
 	</bean>
 
 	<jdbc:initialize-database data-source="dataSource" enabled="true">
@@ -32,8 +32,8 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<bean id="employeeMapper" class="com.javainuse.util.EmployeeMapper" />
-	<bean id="employeeRouter" class="com.javainuse.router.EmployeeRouter" />
+	<bean id="employeeMapper" class="com.requisitions.util.EmployeeMapper" />
+	<bean id="employeeRouter" class="com.requisitions.router.EmployeeRouter" />
 	
 	
 	<camelContext id="employeeContext" xmlns="http://camel.apache.org/schema/spring" >
