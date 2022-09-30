@@ -28,14 +28,14 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<bean id="employeeMapper" class="com.requisitions.util.EmployeeMapper" />
-	<bean id="employeeRouter" class="com.requisitions.router.EmployeeRouter" />
+	<bean id="requisitionsMapper" class="com.requisitions.util.RequisitionsMapper" />
+	<bean id="requisitionsRouter" class="com.requisitions.router.RequisitionsRouter" />
 	
 	
-	<camelContext id="employeeContext" xmlns="http://camel.apache.org/schema/spring" >
+	<camelContext id="requisitionsContext" xmlns="http://camel.apache.org/schema/spring" >
 
 		<propertyPlaceholder id="placeholder" location= "classpath:sql.properties" />
-		<routeBuilder ref="employeeRouter" />
+		<routeBuilder ref="requisitionsRouter" />
 
 	</camelContext>
 
