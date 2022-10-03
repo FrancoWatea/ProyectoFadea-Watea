@@ -1,4 +1,4 @@
-package com.requisitions.main;
+package com.wip.main;
 
 
 import java.time.LocalDate;
@@ -8,7 +8,8 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.ProducerTemplate;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.requisitions.domain.PlantillaWIP;
+
+import com.wip.domain.PlantillaWIP;
 
 
 

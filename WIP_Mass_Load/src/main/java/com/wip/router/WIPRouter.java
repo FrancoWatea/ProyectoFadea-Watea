@@ -1,4 +1,4 @@
-package com.requisitions.router;
+package com.wip.router;
 
 import org.apache.camel.builder.RouteBuilder;
 

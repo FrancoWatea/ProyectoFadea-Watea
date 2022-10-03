@@ -28,8 +28,8 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 
-	<bean id="WIPMapper" class="com.requisitions.util.WIPMapper" />
-	<bean id="WIPRouter" class="com.requisitions.router.WIPRouter" />
+	<bean id="WIPMapper" class="com.wip.util.WIPMapper" />
+	<bean id="WIPRouter" class="com.wip.router.WIPRouter" />
 	
 	
 	<camelContext id="WIPContext" xmlns="http://camel.apache.org/schema/spring" >

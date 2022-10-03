@@ -1,4 +1,4 @@
-package com.requisitions.domain;
+package com.wip.domain;
 
 
 public class PlantillaWIP {
