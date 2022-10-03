@@ -73,7 +73,7 @@
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
 			<scope>system</scope>
-			 <systemPath>C:\Users\mamch\ProyectoFadea-Watea\ojdbc6-11.2.0.3.jar</systemPath>
+			 <systemPath>C:\Users\folan\.m2\repository\org\ojdbc6-11.2.0.3.jar</systemPath>
 		</dependency>
 
 
