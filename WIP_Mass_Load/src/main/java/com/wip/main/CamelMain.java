@@ -53,7 +53,6 @@ public class CamelMain {
 	   wip.setGROUP_ID(1318);
 	   wip.setORGANIZATION_ID(207);
 	   wip.setLOAD_TYPE(1);
-	   wip.setWIP_ENTITY_ID((Integer) null);
 	   wip.setPROCESS_PHASE(2);
 	   wip.setPROCESS_STATUS(1);
 	   wip.setHEADER_ID(1318);
