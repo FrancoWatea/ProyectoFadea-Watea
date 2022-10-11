@@ -170,6 +170,7 @@ public class PlantillaWIP {
 	public void setINTERFACE_ID(int iNTERFACE_ID) {
 		INTERFACE_ID = iNTERFACE_ID;
 	}
+
 	
 	
 	
